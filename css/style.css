@@ -171,19 +171,23 @@ background-attachment: fixed;
 }
 #sec1 .bacground_overlay{
     background-color: rgba(124,53,71,.5);
-    padding:60px 0;
+    padding:40px 0;
     
 }
 #sec1 .text,#sec2{
     text-align: center;
     font-family: 'Tajawal', sans-serif;
 line-height: 28px;
-font-size: 20px;
+font-size: 18px;
 color: var(--light);}
  .first_p{
     font-size: 20px;
 font-weight: 600;
 margin-bottom: 20px;}
+.second_p{font-size: 14px;
+    font-family: 'Tajawal', sans-serif;
+    line-height: 25px;
+}
 /* end section one */
 /* start section two */
 #sec2,#sec3{padding: 40px 0px;
