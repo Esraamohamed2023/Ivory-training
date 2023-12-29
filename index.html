@@ -1,0 +1,447 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="icon" href="./images/icon.png" type="image/x-icon">
+    <link rel="stylesheet" href="./css/style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link href="./css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Tajawal:wght@400;700&display=swap">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <link href="./lib/animate/animate.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Neo+Sans+Arabic:wght@400;700&display=swap" rel="stylesheet"><title>IVORY TRAINING</title>
+</head>
+<body>
+    <div class="top_section">
+        
+        <div class="container p-0 ">
+            <!-- Spinner Start -->
+            <div id="spinner" class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
+               <div class="spinner-border loading" style="width: 3rem; height: 3rem;" role="status">
+                   <span class="sr-only"></span>
+               </div>
+           </div>
+           <!-- Spinner End -->
+           
+           <!-- start header -->
+           <header class="" id="">
+               <div class="logo h-100">
+                   <img src="./images/logofoot.png" alt="logo" class="img-fluid h-100">
+               </div>
+              
+                   <div id="myNav" class="overlay">
+           
+                      
+                       <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+               
+                       <!-- Overlay content -->
+                       <div class="overlay-content">
+                           <a href="#">الرئيسية</a>
+                           <a href="#"> الخطة التدريبية </a>
+                           <button class="dropdown-btn"> الخدمات 
+                               <i class="fa fa-caret-down me-2"></i>
+                             </button>
+                             <div class="dropdown-container">
+                               <a href="#"> التدريب </a>
+                               <a href="#"> الخدمات الإستشارية </a>
+                               <a href="#"> الكوتشينج </a>
+                               <a href="#">  الحقائب التدريبية </a>
+                               <a href="#"> المنصات التدريبية </a>
+                               <a href="#">  تقييمات </a>
+                             </div>
+                           <a href="#"> الاعتمادات</a>
+                           <a href="#"> القطاع الثالث</a>
+                           <a href="#"> بودكاست</a>
+                           <a href="#"> اتصل بنا </a>
+                       </div>
+               <!-- header list -->
+               
+                   </div>
+                   <div class="header_list">
+                       <a href="#">الرئيسية</a>
+                       <a href="#"> الخطة التدريبية </a>
+                       <button class="dropdown-btn" type="button" id="customDropdownBtn" aria-haspopup="true" aria-expanded="false">
+                           الخدمات <i class="fas fa-angle-down me-2"></i>
+                       </button>
+                       <ul class="dropdown-menu" aria-labelledby="customDropdownBtn">
+                           <li><a class="dropdown-item" href="#"> التدريب </a></li>
+                           <li><a class="dropdown-item" href="#">الخدمات الإستشارية </a></li>
+                           <li><a class="dropdown-item" href="#"> الكوتشينج </a></li>
+                           <li><a class="dropdown-item" href="#">الحقائب التدريبية  </a></li>
+                           <li><a class="dropdown-item" href="#"> المنصات التدريبية </a></li>
+                           <li><a class="dropdown-item" href="#">  تقييمات </a></li>
+                       </ul>
+                   
+                       <a href="#"> الاعتمادات</a>
+                       <a href="#"> القطاع الثالث</a>
+                       <a href="#"> بودكاست</a>
+                       <a href="#"> اتصل بنا </a>
+                   </div>
+               <div class="language">
+                   <button class="dropdown-btn" type="button" id="customDropdownBtn2" aria-haspopup="true" aria-expanded="false">
+                         اللغه
+                         <i class="fas fa-angle-down me-2"></i></button>
+                   <ul class="dropdown-menu" aria-labelledby="customDropdownBtn2">
+                       <li><a class="dropdown-item" href="#"> English</a></li>
+                       <li><a class="dropdown-item" href="#"> عربى</a></li>
+                      
+                   </ul>
+               </div>
+                   <span onclick="openNav()" class="openNav"><i class="fas fa-bars text-white fs-5"></i></span>
+           
+           </header>
+           </div>
+           <!-- end header -->
+    </div>
+
+<!-- start sec1 -->
+<section id="sec1">
+    <div class="bacground_overlay">
+        <div class="container">
+            <div class="text">
+                <p class="first_p">التدريب</p>
+                <p class="second_p">فـي عصـرِ النهضـة التكنولوجيـة تقـدما لعـاج الفضـي حقيبـة تدريبيـة ذات موضوعـا تفعالـة ومؤثـرة، تـم إعدادهـاعلى نحِواسـتراتيجي لتائـم طبيعـة التحديـات التـي يواجههـا العالـم فـي الفتـرة الحاليـة، نهـدف مـن تلـك الموضوعـات التدريبيـة سـد الفجـوة ومعالجـة نقــاط الضعــف لــدى الأفــراد والعمــل علــى تنميــة مواهبهــم وتوســيع مداركهــم وتعزيــز مهاراتهــم بشــكل مائــم لســوق العمــل
+                  
+        
+                </p>
+                <p class="second_p">
+                    الحالـي، عـاوة علـى تحسـين أداء المؤسسـات والشـركات بهـدف الوصـول بهـم نحـو أعلـى معـدلات النمـو والازدهـار. ويندرج تحت كل موضوع تدريبي عدة برامج مختصة بالتدريب والتأهيل والتوجيه بالإضافة إلى البرامج الاستشارية.
+        
+                </p>
+                <button>اطلب الدورات التعاقدية لشركتك  </button>
+            </div>
+        </div>    
+    </div>
+  
+
+</section>
+<!-- end sec1 -->
+<!-- start sec2 -->
+<section id="sec2" class="wow fadeInUp" data-wow-duration="2s">
+    <div class="container">
+<p class="first_p">مجال التدريب</p>
+<div class="fields">
+<div class="fields_part">
+    <ul><p>التطوير التنظيمى</p>
+    <li><i class="fas fa-angle-left"></i><i class="fas fa-angle-left ms-2"></i>الهيكله والتصميم </li>
+    <li><i class="fas fa-angle-left"></i><i class="fas fa-angle-left ms-2"></i>الموارد البشريه</li>
+    <li><i class="fas fa-angle-left"></i><i class="fas fa-angle-left ms-2"></i>التغير الاستراتيجى</li>
+    <li><i class="fas fa-angle-left"></i><i class="fas fa-angle-left ms-2"></i>القياده</li>
+</ul>
+
+
+</div>
+<div class="fields_part">
+    <ul><p>اداره الثروه ةالاستثمار</p>
+    <li><i class="fas fa-angle-left"></i><i class="fas fa-angle-left ms-2"></i>التأمين</li>
+    <li><i class="fas fa-angle-left"></i><i class="fas fa-angle-left ms-2"></i>المصارف</li>
+    <li><i class="fas fa-angle-left"></i><i class="fas fa-angle-left ms-2"></i>المصارف الاسلاميه</li>
+    <li><i class="fas fa-angle-left"></i><i class="fas fa-angle-left ms-2"></i>الاصول والاستثمار</li>
+    <li><i class="fas fa-angle-left"></i><i class="fas fa-angle-left ms-2"></i>سوق المال</li>
+
+</ul>
+
+
+</div>
+<div class="fields_part">
+    <ul><p>التطوير الشخصى</p>
+    <li><i class="fas fa-angle-left"></i><i class="fas fa-angle-left ms-2"></i>اداره الذات</li>
+    <li><i class="fas fa-angle-left"></i><i class="fas fa-angle-left ms-2"></i>التواصل و التأثير</li>
+    <li><i class="fas fa-angle-left"></i><i class="fas fa-angle-left ms-2"></i>مناهج التفكير</li>
+  
+</ul>
+
+
+</div>
+<div class="fields_part">
+    <ul><p>تطوير الاداء التشغيلى</p>
+    <li><i class="fas fa-angle-left"></i><i class="fas fa-angle-left ms-2"></i>اداره الذات</li>
+    <li><i class="fas fa-angle-left"></i><i class="fas fa-angle-left ms-2"></i>التواصل و التأثير</li>
+    <li><i class="fas fa-angle-left"></i><i class="fas fa-angle-left ms-2"></i>مناهج التفكير</li>
+  
+</ul>
+
+
+</div>
+<div class="fields_part">
+    <ul><p>اداره المشتريات وسلاسل المشتريات</p>
+    <li><i class="fas fa-angle-left"></i><i class="fas fa-angle-left ms-2"></i>اداره الذات</li>
+    <li><i class="fas fa-angle-left"></i><i class="fas fa-angle-left ms-2"></i>التواصل و التأثير</li>
+    
+  
+</ul>
+
+
+</div>
+<div class="fields_part">
+    <ul><p>الاتصال التجارى</p>
+    <li><i class="fas fa-angle-left"></i><i class="fas fa-angle-left ms-2"></i>اداره الذات</li>
+    <li><i class="fas fa-angle-left"></i><i class="fas fa-angle-left ms-2"></i>التواصل و التأثير</li>
+    
+  
+</ul>
+
+</div>
+</div>
+    </div>
+</section>
+<!-- end sec2 -->
+<!-- start sec3 -->
+<section id="sec3" class="wow  slideInRight" data-wow-duration="5s">
+    <div class="container">
+        <p class="first_p">تقنية المعلومات والتحول الرقمي</p>
+        <div class="slider_part">
+            <div class="swiper mySwiper">
+                <div class="swiper-wrapper">
+                  <div class="swiper-slide">
+                   <div class="slider_content">
+                    <span><i class="fas fa-check"></i></span>
+                    <p>أمن المعلومات</p>
+
+                   </div>
+
+                  </div>
+                  <div class="swiper-slide">
+                    <div class="slider_content">
+                     <span><i class="fas fa-check"></i></span>
+                     <p>برامج امن الشبكات</p>
+ 
+                    </div>
+ 
+                   </div>
+                   <div class="swiper-slide">
+                    <div class="slider_content">
+                     <span><i class="fas fa-check"></i></span>
+                     <p>برامج امن المعلومات</p>
+ 
+                    </div>
+ 
+                   </div>
+                   <div class="swiper-slide">
+                    <div class="slider_content">
+                     <span><i class="fas fa-check"></i></span>
+                     <p>الاتصالات الخلويه</p>
+ 
+                    </div>
+ 
+                   </div>
+                   <div class="swiper-slide">
+                    <div class="slider_content">
+                     <span><i class="fas fa-check"></i></span>
+                     <p>مركز البيانات</p>
+ 
+                    </div>
+ 
+                   </div>
+                   <div class="swiper-slide">
+                    <div class="slider_content">
+                     <span><i class="fas fa-check"></i></span>
+                     <p>الهواتف الفيديوهات</p>
+ 
+                    </div>
+ 
+                   </div>
+                   <div class="swiper-slide">
+                    <div class="slider_content">
+                     <span><i class="fas fa-check"></i></span>
+                     <p>البيئه الافتراضيه</p>
+ 
+                    </div>
+ 
+                   </div>
+                </div>
+              
+              </div>
+
+        </div>
+     
+    </div>
+</section>
+<!-- end sec3 -->
+<!-- start sec4 -->
+<section id="sec4" class="wow  slideInUp" data-wow-duration="5s" >
+    <div class="container">
+        <button class="accordion">التطوير الادارى</button>
+        <div class="panel">
+       
+        <li>الاداره ةالاستراتجيه</li>
+        <li>القطاع العام</li>
+        <li>المنظمات الغير هادفه للربح</li>
+        <li>المخاطر و الازمات</li>
+       </div>
+        
+       <button class="accordion">اداره الرعايه الصحيه</button>
+       <div class="panel">
+      
+       <li>الاداره ةالاستراتجيه</li>
+       <li>القطاع العام</li>
+       <li>المنظمات الغير هادفه للربح</li>
+       <li>المخاطر و الازمات</li>
+      </div>
+      <button class="accordion">اداره الخدمات التعليميه</button>
+      <div class="panel">
+     
+      <li>الاداره ةالاستراتجيه</li>
+      <li>القطاع العام</li>
+      <li>المنظمات الغير هادفه للربح</li>
+      <li>المخاطر و الازمات</li>
+     </div>
+     <button class="accordion">التطوير الادارى</button>
+     <div class="panel">
+    
+     <li>الاداره ةالاستراتجيه</li>
+     <li>القطاع العام</li>
+     <li>المنظمات الغير هادفه للربح</li>
+     <li>المخاطر و الازمات</li>
+    </div>
+    <button class="accordion">الهندسه</button>
+    <div class="panel">
+   
+    <li>الاداره ةالاستراتجيه</li>
+    <li>القطاع العام</li>
+    <li>المنظمات الغير هادفه للربح</li>
+    <li>المخاطر و الازمات</li>
+   </div>
+
+   <div class="new_part text-center mt-4 mb-4">
+    <div class="training">
+      
+        <button> <span><a>الخطة التدريبية</a></span></button>
+    </div>
+    <div class="training">
+      
+        <button><span><a>تعرف على الخطوات الخمس لإعداد الخطة التدريبية للشركة</a></span></button>
+    </div>
+   
+    <div class="training">
+      
+        <button><span><a>الاعتمادات</a>
+        </span></button>
+    </div>
+    <div class="training">
+      
+        <button><span><a>الدورات التدريبية</a></span></button>
+    </div>
+</div>
+
+    
+    
+</section>
+<!-- end sec4 -->
+
+
+ <!-- Back to Top -->
+ <a href="#" class="btn btn-lg  btn-lg-square back-to-top"><i class="bi bi-arrow-up"></i></a>
+<!-- start footer -->
+<footer>
+    <div class="container">
+    <div class="three_list">
+        <ul>
+            <p>الدورات الاكثر طلبا</p>
+            <li><a><img src="./images/footer1.png" alt=""><span>
+                أخصائي تصوير البيانات المعتمد (C-DV) - Certified Data</span></a></li>
+                <li><a><img src="./images/footer2.png" alt=""><span>
+                    CompTIA CTT+
+                </span></a></li>
+                <li><a><img src="./images/footer3.png" alt=""><span>
+                    
+                    CompTIA Cloud Essentials+
+                    
+                </span></a></li>
+                <li><a><img src="./images/footer4.png" alt=""><span>
+                    
+                    
+                    Level II Award in Principles of HACCP
+                    
+                    
+                </span></a></li>
+        </ul>
+        <ul>
+            <p>روابط تهمك</p>
+            <li><a>التحقق من الشهادة</a><span>
+            
+        </ul>
+        <ul >
+            <p>ابقى ع اتصال</p>
+            <li ><a> <span>الرياض ، المرسلات طريق ابو بكر الصديق</span><i class="fas fa-map-marker-alt me-2"></i></a></li>
+            <li ><a class="justify-content-end">
+                <span>00966533993220</span><i class="fas fa-mobile-alt me-2"></i>
+            </a></li>
+            <div class="social-icons">
+                <a href="#" target="_blank" class="social-icon"><i class="fab fa-facebook"></i></a>
+                <a href="#" target="_blank" class="social-icon"><i class="fab fa-linkedin"></i></a>
+                <a href="#" target="_blank" class="social-icon"><i class="fab fa-twitter"></i></a>
+                <a href="#" target="_blank" class="social-icon"><i class="fab fa-instagram"></i></a>
+             
+              
+            </div>
+        </ul>
+
+
+    </div>
+    <div class="copy text-center">
+        <p>
+            جميع الحقوق محفوظة - ايفوري للتدريب والاستشارات 2023
+
+            ©
+            </p>
+    </div>
+   
+</div>
+
+
+</footer>
+<!-- end footer -->
+<link href="./lib/wow/wow.min.js" rel="stylesheet">
+    <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+   
+    <script src="lib/wow/wow.min.js"></script>
+    <script src="./js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <script src="./js/style.js"></script>
+    <script>
+        new WOW().init();
+    </script>
+      <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+   <!-- Initialize Swiper -->
+  <script>
+    var swiper = new Swiper(".mySwiper", {
+        loop: true,
+            freeMode: true, // Enable free mode
+            parallax: true, // Enable parallax effect
+            autoplay: {
+                delay: 3000, // Set the delay in milliseconds between slides
+                disableOnInteraction: false},
+      slidesPerView: 1,
+      spaceBetween: 10,
+      pagination: {
+        el: ".swiper-pagination",
+        clickable: true,
+      },
+      breakpoints: {
+        "@0.00": {
+          slidesPerView: 1,
+          spaceBetween: 10,
+        },
+        "@0.75": {
+          slidesPerView: 2,
+          spaceBetween: 20,
+        },
+        "@1.00": {
+          slidesPerView: 3,
+          spaceBetween: 40,
+        },
+        "@1.50": {
+          slidesPerView: 4,
+          spaceBetween: 50,
+        },
+      },
+    });
+  </script>
+</body>
+</html>
